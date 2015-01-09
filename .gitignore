@@ -1,0 +1,19 @@
+node_modules
+public
+logs
+.tmp
+.sass-cache
+.idea
+bower_components
+ngApp/templates.js
+
+# OS generated files #
+######################
+*/.DS_Store
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

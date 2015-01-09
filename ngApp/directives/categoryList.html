@@ -1,0 +1,8 @@
+CATEGORY LIST
+
+</h5>{{currentCategory}}</h5>
+<ul class="list-group">
+    <li class="list-group-item" ng-repeat="category in categories | limitTo:10"
+        ng-click="changeCategory(category)">{{category.value}}
+    </li>
+</ul>

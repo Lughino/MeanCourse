@@ -1,0 +1,24 @@
+{
+    "name" : "fs",
+    "version" : "0.0.1",
+    "description" : "Modulo di lettura/scrittura file su filesystem",
+    "main" : "lib/index.js",
+    "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+    },
+    "private" : true,
+    "keywords" : [
+        "fs"
+    ],
+    "author" : "Luca Pau",
+    "license" : "BSD-2-Clause",
+    "dependencies" : {
+        "simple-registry" : "*"
+    },
+    "devDependencies" : {
+        "mocha" : "~1.14.0",
+        "mocha-as-promised" : "~1.4.1",
+        "passport" : ">= 0.0.0",
+        "passport-local" : ">= 0.0.0"
+    }
+}

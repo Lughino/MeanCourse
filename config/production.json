@@ -1,0 +1,28 @@
+{
+    "server": {
+        "fullUrl" : "http://www.esis-italia.com",
+        "protocol": "http",
+        "port": 3000,
+        "host": "esis-italia.com",
+        "proxy": {
+            "port": 8010
+        }
+    },
+    "mongodb": {
+        "db": "meanCourseProd"
+    },
+    "mailer": {
+        "fromDelivery": "noreplytest@esis-italia.com",
+        "bccDelivery": "testesis@esis-italia.com",
+        "transport": "SMTP",
+        "options" : {
+            "host": "host",
+            "secureConnection": true,
+            "port": 465,
+            "auth": {
+                "user": "user",
+                "pass": "pass"
+            }
+        }
+    }
+}
